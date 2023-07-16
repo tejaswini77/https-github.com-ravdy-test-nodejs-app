@@ -7,8 +7,11 @@ pipeline {
      stage('Install Dependencies') { 
         steps { 
            sh 'echo "success..."'
+           sh 'echo "Cancel"'
+          
         }
      }
      
    }
 }
+
